@@ -18,7 +18,7 @@ export function Projects() {
 
   return(
     <>
-    <div className="project-placeholder-div" id="projects"></div>
+    <div className="placeholder-div" id="projects"></div>
     <div className="page-divs">
       <h1>Featured Projects</h1>
       <div className="project-wrapper">
@@ -39,7 +39,9 @@ export function Projects() {
           </Hover>
           <h3 className="project-title">Try Scorer (Sport Tech Daily)</h3>
           <p>MERN stack + AWS Web Application</p>
-          <a href="https://edge.sporttechdaily.com/nrl/tryscorers">Link</a>
+          <div className="link-div">
+            <a href="https://edge.sporttechdaily.com/nrl/tryscorers" target="_blank" rel="noreferrer"><i className="fas fa-globe"></i></a>
+          </div>
         </div>
         <div className="project-card">
         <Hover onHover={
@@ -59,7 +61,9 @@ export function Projects() {
           </Hover>
           <h3 className="project-title">NRL Fantasy Team Optimiser (Sport Tech Daily)</h3>
           <p>MERN stack + Python + AWS Web Application</p>
-          <p>Currently Private</p>
+          <div className="link-div">
+            <p id="privated-link">Currently Private</p>
+          </div>
         </div>
         <div className="project-card">
         <Hover onHover={
@@ -81,7 +85,10 @@ export function Projects() {
           </Hover>
           <h3 className="project-title">Tight20s</h3>
           <p>React-Rails Web Application</p>
-          <a href="https://github.com/derricklai33/T3A2-Budget-Tracker">Link</a>
+          <div className="link-div">
+            <a href="https://github.com/derricklai33/T3A2-Budget-Tracker" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+            <a href="https://tight20s.netlify.app/" target="_blank" rel="noreferrer"><i className="fas fa-globe"></i></a>
+          </div>
         </div>
         <div className="project-card">
         <Hover onHover={
@@ -101,7 +108,10 @@ export function Projects() {
           </Hover>
           <h3 className="project-title">CoderFitz</h3>
           <p>Ruby on Rails CRUD Web Application</p>
-          <a href="https://github.com/derricklai33/T3A2-Budget-Tracker">Link</a>
+          <div className="link-div">
+            <a href="https://github.com/derricklai33/rails-marketplace-coderfitz" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+            <a href="https://rails-marketplace-coderfitz.herokuapp.com/" target="_blank" rel="noreferrer"><i className="fas fa-globe"></i></a>
+          </div>
         </div>
         <div className="project-card">
         <Hover onHover={
@@ -110,7 +120,8 @@ export function Projects() {
             <h2>Tech Stack</h2> 
               <li>Ruby</li>
               <li>CLI</li>
-              <li>AWS</li>   
+              <li>AWS</li>
+              <li>Zomato API</li>   
             </ul>
           </div>}>
           <div className="project-img">
@@ -119,7 +130,9 @@ export function Projects() {
           </Hover>
           <h3 className="project-title">What are we having tonight?</h3>
           <p>CLI application that generates a random choice for restaurant using Zomato API</p>
-          <a href="https://github.com/derricklai33/T3A2-Budget-Tracker">Link</a>
+          <div className="link-div">
+            <a href="https://github.com/derricklai33/terminal_app" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+          </div>
         </div>
         <div className="project-card">
         <Hover onHover={
@@ -134,10 +147,13 @@ export function Projects() {
           <div className="project-img">
             <img src={Portfolio} alt="portfolio-img" height="300px" width="400px"></img>
           </div>
-          </Hover>
+        </Hover>
           <h3 className="project-title">Portfolio 1.0</h3>
           <p>Initial version of my portfolio</p>
-          <a href="https://github.com/derricklai33/T3A2-Budget-Tracker">Link</a>
+          <div className="link-div">
+            <a href="https://github.com/derricklai33/derrick-portfolio" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+            <a href="https://derricklai.netlify.app/" target="_blank" rel="noreferrer"><i className="fas fa-globe"></i></a>
+          </div>
         </div>
       </div>
     </div>

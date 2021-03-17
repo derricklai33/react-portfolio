@@ -19,15 +19,15 @@
       padding: 5px;
       border-radius: 5px;
     }
+    a:visited {
+      color: none;
+    }
+    
+    a:hover {
+      transition: all ease-in-out 0.3s;
+      color: white !important;
+      background-color: black;
+    }
   }
 }
 
-a:visited {
-  color: none;
-}
-
-a:hover {
-  transition: all ease-in-out 0.3s;
-  color: white !important;
-  background-color: black;
-}

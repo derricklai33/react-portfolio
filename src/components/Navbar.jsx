@@ -17,7 +17,7 @@ export function Navbar() {
         <li>
           <a
             href={
-              "https://drive.google.com/file/d/1es2M0ZuzWcr_aI0JafJB5LLMdZAbG7L8/view?usp=sharing"
+              "https://drive.google.com/file/d/13oARNAT3dgLFqXs54lYDqBpYprRxWNCJ/view?usp=sharing"
             }
             target="_blank"
             rel="noreferrer"

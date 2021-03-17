@@ -8,11 +8,11 @@
   height: 5vh;
   position: fixed;
   width: 100%;
-  transition: all 0.5s ease-in-out;
   z-index: 1000;
   li {
     margin: 0 20px;
     a {
+      
       text-decoration: none;
       color: black;
       border: 1px solid black;
@@ -24,7 +24,6 @@
     }
     
     a:hover {
-      transition: all ease-in-out 0.3s;
       color: white !important;
       background-color: black;
     }

@@ -1,6 +1,7 @@
 import React from 'react'
 
 export function Background() {
+  console.log("Credits to Codepen user Sarash Sinha (https://codepen.io/saransh) for the animated background")
   return(
     <>
       <div id='stars'></div>

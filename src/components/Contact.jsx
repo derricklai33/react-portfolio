@@ -7,8 +7,7 @@ export function Contact() {
 
   return (
     <>
-      <div className="placeholder-div" id="contact"></div>
-      <div className="contact-div">
+      <div className="contact-div" id="contact">
         <h1>Contact Me</h1>
         {state.succeeded ? (
           <div className="contact-form after-submit">

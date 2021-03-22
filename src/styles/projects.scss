@@ -94,3 +94,20 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .project-wrapper{
+    .project-card {
+      width: 100%;
+      .project-img {
+        width: 300px;
+        .project-img-tag {
+          width: 300px;
+        }
+      }
+    }
+  }
+  
+  .project-img-hover {
+    width: 300px;
+  }
+}

@@ -37,6 +37,7 @@ export function Projects() {
             >
               <div className="project-img">
                 <img
+                  className="project-img-tag"
                   src={TryScorer}
                   alt="tryscorer-img"
                   height="300px"
@@ -73,6 +74,7 @@ export function Projects() {
             >
               <div className="project-img">
                 <img
+                  className="project-img-tag"
                   src={Optimiser}
                   alt="optimiser-img"
                   height="300px"
@@ -107,6 +109,7 @@ export function Projects() {
             >
               <div className="project-img">
                 <img
+                  className="project-img-tag"
                   src={Tight20s}
                   alt="tight20s-img"
                   height="300px"
@@ -150,6 +153,7 @@ export function Projects() {
             >
               <div className="project-img">
                 <img
+                  className="project-img-tag"
                   src={CoderFitz}
                   alt="coderfitz-img"
                   height="300px"
@@ -192,6 +196,7 @@ export function Projects() {
             >
               <div className="project-img">
                 <img
+                  className="project-img-tag"
                   src={Terminal}
                   alt="terminal-img"
                   height="300px"
@@ -229,6 +234,7 @@ export function Projects() {
             >
               <div className="project-img">
                 <img
+                  className="project-img-tag"
                   src={Portfolio}
                   alt="portfolio-img"
                   height="300px"

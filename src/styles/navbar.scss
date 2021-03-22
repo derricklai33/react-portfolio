@@ -7,7 +7,7 @@
   align-items: center;
   height: 5vh;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 1000;
   li {
     margin: 0 20px;
@@ -28,5 +28,13 @@
       background-color: black;
     }
   }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar{
+    li{
+      margin: 0 12px;
+    }
+  } 
 }
 

@@ -7,9 +7,3 @@ This portfolio is created to replace the old portfolio that was built on pure HT
 
 1. React
 2. CSS
-
-### To-do List
-
-1. Mobile version of portfolio.
-2. Smooth transition clicking on navbar.
-3. Possibly update landing page.

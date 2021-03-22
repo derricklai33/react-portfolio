@@ -79,3 +79,17 @@
   color: white !important;
   background-color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .contact-div{
+    width: 100%;
+    .contact-form {
+      width: 60%;
+      height: 200px;
+      padding: 20px 40px;
+      label {
+        margin: 5px 0;
+      }
+    }
+  }
+}
